@@ -58,3 +58,18 @@ checking ports : docker port docker-new-web-app
 / — Home page
 /health — Health check
 /info — Application information
+
+## Docker Image
+
+Docker Hub:
+
+nareshnb357/dockerized-web-app:latest
+
+## Run the Project
+
+Pull the Docker image:
+
+docker pull nareshnb357/dockerized-web-app:latest
+
+## run container
+docker run -d -p 5000:5000 --name docker-web-app nareshnb357/dockerized-web-app:latest
