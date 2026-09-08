@@ -73,3 +73,7 @@ docker pull nareshnb357/dockerized-web-app:latest
 
 ## run container
 docker run -d -p 5000:5000 --name docker-web-app nareshnb357/dockerized-web-app:latest
+
+## update restart policy
+
+docker update --restart unless-stopped docker-web-app 
